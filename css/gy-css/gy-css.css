@@ -1,0 +1,453 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+body,html {
+	font-family: "微软雅黑", "Microsoft Yahei";
+}
+.gy-container {
+	width: 100%;
+	overflow: hidden;
+}
+.gy-container .gy-bannerBox {
+	width: 100%;
+}
+.gy-container .gy-bannerBox img {
+	width: 100%;
+	height: 393px;
+}
+/* banner end*/
+/* serve start */
+.gy-container .serveBox {
+	width: 1140px;
+	overflow: hidden;
+	padding-top: 130px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+.gy-container .serveBox .s-title {
+	width: 100%;
+	height: 95px;
+}
+.gy-container .serveBox .s-title h3 {
+	font-size: 30px;
+	color: #002;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 36px;
+}
+.gy-container .serveBox .s-title h5 {
+	color: #e4392a;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: normal;
+	text-transform: uppercase; 
+	text-align: center;
+}
+.gy-container .serveBox .s-title h5 span {
+	color: #cacace;
+	margin-right: 4px;
+}
+
+.gy-container .serveBox .serveCon {
+	width: 1140px;
+	overflow: hidden;
+}
+.gy-container .serveBox .serveCon a {
+	display: block;
+	width: 148px;
+	padding: 0 40px;
+	float: left;
+}
+.gy-container .serveBox .serveCon li {
+	width: 148px;
+
+}
+.gy-container .serveBox .serveCon li .iconBox {
+	width: 127px;
+	height: 127px;
+	position: relative;
+	background: url(../../image/gy-image/gy-m1.png) no-repeat center /cover;
+	margin: 0 auto;
+	margin-bottom: 55px;
+}
+.gy-container .serveBox .serveCon li .iconBox img {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+.gy-container .serveBox .serveCon li .iconBox .hid {
+	position: absolute;
+	top: -100%;
+	left: 0px;
+	transition: all .6s;
+}
+
+.gy-container .serveBox .serveCon li .desBox {
+	width: 100%;
+}
+.gy-container .serveBox .serveCon li .desBox h3 {
+	font-size: 16px;
+	margin-bottom: 18px;
+	font-weight: normal;
+	color: #999;
+	text-align: center;
+	margin-bottom: 18px;
+}
+.gy-container .serveBox .serveCon li .desBox span {
+	display: block;
+	width: 25px;
+	height: 2px;
+	background: #707070;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.gy-container .serveBox .serveCon li .desBox p {
+	color: #999;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: left;
+}
+/* serve end */
+
+
+/* case start */
+.gy-container .caseBg {
+	width: 100%;
+	background: url(../../image/gy-image/gy-bg-1.png) no-repeat center center /cover;
+	padding-bottom: 40px;
+	/*margin-bottom: 200px;*/
+}
+
+.gy-container .caseBg .caseBox {
+	width: 1140px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+.gy-container .caseBg .caseBox .tit {
+	width: 100%;
+	height: 95px;
+}
+.gy-container .caseBg .caseBox .tit h3 {
+	font-size: 30px;
+	color: #002;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 36px;
+}
+.gy-container .caseBg .caseBox .tit h5 {
+	color: #e4392a;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: normal;
+	text-transform: uppercase; 
+	text-align: center;
+}
+.gy-container .caseBg .caseBox .tit h5 span {
+	color: #cacace;
+	margin-right: 4px;
+}
+
+.gy-container .caseBg .caseBox .caseList {
+	width: 100%;
+	overflow: hidden;
+}
+.gy-container .caseBg .caseBox .caseList li {
+	display: block;
+	width: 25%;
+	padding: 0 15px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}	
+.gy-container .caseBg .caseBox .caseList li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.gy-container .caseBg .caseBox .caseList li img {
+	width: 258px;
+	height: 120px;
+}
+
+.gy-container .caseBg .caseBox .caseList li a .hid {
+	position: absolute;
+	top: -100%;
+	width: 90%;
+	height: 100%;
+	background: url(../../image/gy-image/gy-repeat.png) repeat;
+	transition: all .3s;
+}
+.gy-container .caseBg .caseBox .caseList li a .hid img {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 0px auto;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.gy-container .caseBg .caseBox .caseList li a .hid p {
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+.gy-container .caseBg .caseBox .more-icon {
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+.gy-container .caseBg .caseBox .more-icon a {
+	display: block;
+	width: 65px;
+	height: 65px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: url(../../image/gy-image/gy-arr.png) no-repeat center center #000014;
+}
+/* case end */
+/* news start */
+.gy-container .newsBg {
+	width: 100%;
+	height: 100%;
+	background: url(../../image/gy-image/gy-bg-2.png) no-repeat center top;
+	padding-top: 50px;
+}
+
+.gy-container .newsBg .newsBox .tit {
+	width: 100%;
+	height: 95px;
+
+}
+.gy-container .newsBg .newsBox .tit h3 {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 36px;
+}
+.gy-container .newsBg .newsBox .tit h5 {
+	color: #e4392a;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: normal;
+	text-transform: uppercase; 
+	text-align: center;
+}
+.gy-container .newsBg .newsBox .tit h5 span {
+	color: #cacace;
+	margin-right: 4px;
+}
+
+.gy-container .newsBg .newsBox .newsDes {
+	width: 1140px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.gy-container .newsBg .newsBox .newsDes li {
+	width: 24.5%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	position: relative;
+}
+.gy-container .newsBg .newsBox .newsDes li .showCon {
+	width: 100%;
+	height: 100%;
+	padding-left: 30px;
+	padding-right: 45px;
+	box-sizing: border-box;
+}
+.gy-container .newsBg .newsBox .newsDes li .showCon span {
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	padding: 15px 8px;
+	color: white;
+	margin-bottom: 
+}
+.gy-container .newsBg .newsBox .newsDes li .showCon span em {
+	display: block;
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+	font-style: normal;
+}
+.gy-container .newsBg .newsBox .newsDes li .showCon h3{
+	color: #fff;
+	padding: 20px 0px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.gy-container .newsBg .newsBox .newsDes li .showCon p {
+	color: #bbbbbe;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.gy-container .newsBg .newsBox .newsDes li .showCon a {
+	display: block;
+	width: 36px;
+	height: 36px;
+	background: url(../../image/gy-image/gy-moreL.png) no-repeat center center;
+	margin-top: 50px;
+}
+.gy-container .newsBg .newsBox .newsDes li .topHid {
+	position: absolute;
+	width: 92%;
+	height: 165px;
+	top: -165px;
+	left: 0px;
+	transition: all .3s;
+}
+.gy-container .newsBg .newsBox .newsDes li .topHid img {
+	width: 100%;
+	height: 165px;
+}
+.gy-container .newsBg .newsBox .learnMore {
+	width: 1140px;
+	margin: 0px auto;
+}
+.gy-container .newsBg .newsBox .newsDes li .botHid {
+	width: 92%;
+	height: 130px;
+	position: absolute;
+	bottom: -130px;
+	left: 0px;
+	background: #000022;
+	transition: all .3s;
+}
+.gy-container .newsBg .newsBox .newsDes li .botHid h5 {
+	margin-top: 20px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+}
+.gy-container .newsBg .newsBox .newsDes li .botHid h5 a{
+	color: white;
+}
+.gy-container .newsBg .newsBox .newsDes li .botHid p {
+	margin-top: 20px;
+	color: #999;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+.gy-container .newsBg .newsBox .learnMore a {
+	display: block;
+	width: 176px;
+	height: 48px;
+	margin: 0px auto;
+	border: 1px solid #fff; 
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+}
+
+/* news end */
+/* contact start */
+.gy-container .contactBox {
+	width: 1140px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+.gy-container .contactBox .tit {
+	width: 100%;
+	height: 95px;
+}
+.gy-container .contactBox .tit h3 {
+	font-size: 30px;
+	color: #002;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 36px;
+}
+.gy-container .contactBox .tit h5 {
+	color: #e4392a;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: normal;
+	text-transform: uppercase; 
+	text-align: center;
+}
+.gy-container .contactBox .tit h5 span {
+	color: #cacace;
+	margin-right: 4px;
+}
+.gy-container .contactBox .des {
+	width: 1140px;
+	margin: 0px auto;
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+.gy-container .contactBox .des .desL {
+	width: 38%;
+	float: left;
+}
+
+.gy-container .contactBox .des .desL li {
+	width: 100%;
+	height: 35px;
+}
+.gy-container .contactBox .des .desL .address {
+	background: url(../../image/gy-image/gy-icon2-1.png) no-repeat;
+	padding-left: 60px;
+	margin-bottom: 20px;
+	line-height: 35px;
+	font-size: 14px;
+}
+.gy-container .contactBox .des .desL .tel {
+	background: url(../../image/gy-image/gy-icon2-2.png) no-repeat;
+	padding-left: 60px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #999;
+}
+.gy-container .contactBox .des .desL .tel2 {
+	padding-left: 60px;
+	margin-bottom: 20px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #999;
+}
+
+.gy-container .contactBox .des .desL .email {
+	padding-left: 60px;
+	margin-bottom: 20px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #999;
+}
+.gy-container .contactBox .des .desR {
+	width: 62%;
+	float: right;
+	/*background: url(../gy-image/gy-conus.jpg) no-repeat center center;*/
+}
+.gy-container .contactBox .des .desR img {
+	max-width: 100%;
+}
+
+/* contact end*/

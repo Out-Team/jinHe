@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+body,html {
+	font-family: "微软雅黑", "Microsoft Yahei";
+}
+
+footer {
+	width: 100%;
+	position: relative;
+}
+footer .map {
+	width: 100%;
+	height: 200px;
+	display: none;
+	margin-bottom: 120px;
+}
+footer .map .close {
+	width: 112px;
+	height: 48px;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+	background: white url(../image/footer/map_down.png);
+ 
+}
+
+
+
+footer .mapBot {
+	width: 100%;
+	position: absolute;
+}
+
+footer .mapBot .mapA {
+	display: block;
+	width: 100%;
+	height: 110px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background: url(../image/footer/map-s.png) no-repeat center top;
+	text-align: center;
+	cursor: pointer;
+}
+footer .mapBot .mapA span {
+	display: block;
+	width: 100%;
+	height: 15px;
+	background: url(../image/footer/arrup.jpg) no-repeat center center;
+}
+footer .mapBot .mapA h3 {
+	color: white;
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 40px;
+}
+footer .mapBot .link {
+	width: 100%;
+	height: 36px;
+	padding-bottom: 30px;
+
+}
+footer .mapBot .link .linkBox {
+	width: 1140px;
+	margin: 0px auto;
+	text-align: center;
+
+
+}
+footer .mapBot .link .linkBox a {
+	font-size: 12px;
+	color: #a8a8af;
+	padding-right: 15px;
+}
+footer .mapBot .siteMap {
+	width: 100%;
+	background: url(../image/footer/ft-bg.png) no-repeat center top;
+	margin-top: -25px;
+}
+footer .mapBot .siteMap .des {
+	width: 1140px;
+	height: 100%;
+	margin: 0px auto;
+	padding-top: 75px;
+	padding-bottom: 40px;
+	overflow: hidden;
+	box-sizing: border-box;
+
+}
+footer .mapBot .siteMap .des ul {
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+footer .mapBot .siteMap .des ul li {
+	line-height: 26px;
+	overflow: hidden;
+	color: white;
+}
+footer .mapBot .siteMap .des ul li a{
+	color: #a8a8af;
+	font-size: 14px;
+
+}
+footer .mapBot .siteMap .des ul li:first-child {
+	margin-bottom: 20px;
+}
+footer .mapBot .siteMap .des ul li:first-child a{
+	color: white;
+	font-size: 16px;
+}
+footer .mapBot .siteMap .des .cont .xin {
+	margin: 0 10px 25px 0px;
+	width: 25px;
+	height: 25px;
+	display: block;
+	background: url(../image/footer/ft_icon1.png) no-repeat center center;
+	float: left;
+}
+footer .mapBot .siteMap .des .cont .bo {
+	margin: 0 10px 25px 0px;
+	width: 25px;
+	height: 25px;
+	display: block;
+	background: url(../image/footer/ft_icon2.png) no-repeat center center;
+	float: left;
+}
+footer .mapBot .siteMap .des .cont b {
+	font-size: 24px;
+	color: white;
+	font-weight: normal;
+}
+footer .mapBot .siteMap .des .cont h5 {
+	color: white;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+footer .mapBot .copyright {
+	width: 100%;
+	background:  #000022;
+	line-height: 40px;
+	color: #CCCCCC;
+	font-size: 12px;
+	text-align: center;
+}
