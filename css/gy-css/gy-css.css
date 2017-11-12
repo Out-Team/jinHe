@@ -1,15 +1,4 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-a{
-	color: black;
-	text-decoration: none;
-}
-body,html {
-	font-family: "微软雅黑", "Microsoft Yahei";
-}
+
 .gy-container {
 	width: 100%;
 	overflow: hidden;
@@ -62,7 +51,7 @@ body,html {
 }
 .gy-container .serveBox .serveCon a {
 	display: block;
-	width: 148px;
+	width: 20%;
 	padding: 0 40px;
 	float: left;
 }

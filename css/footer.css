@@ -1,15 +1,4 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-a{
-	color: black;
-	text-decoration: none;
-}
-body,html {
-	font-family: "微软雅黑", "Microsoft Yahei";
-}
+
 
 footer {
 	width: 100%;
@@ -86,7 +75,6 @@ footer .mapBot .link .linkBox a:hover {
 footer .mapBot .siteMap {
 	width: 100%;
 	background: url(../image/footer/ft-bg.png) no-repeat center top;
-	margin-top: -25px;
 }
 footer .mapBot .siteMap .des {
 	width: 1140px;
