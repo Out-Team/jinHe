@@ -19,7 +19,7 @@ body,html {
 }
 .gy-container .gy-bannerBox img {
 	width: 100%;
-	height: 393px;
+	/*height: 393px;*/
 }
 /* banner end*/
 /* serve start */
@@ -68,7 +68,6 @@ body,html {
 }
 .gy-container .serveBox .serveCon li {
 	width: 148px;
-
 }
 .gy-container .serveBox .serveCon li .iconBox {
 	width: 127px;
@@ -178,7 +177,7 @@ body,html {
 	height: 100%;
 }
 .gy-container .caseBg .caseBox .caseList li img {
-	width: 258px;
+	width: 100%;
 	height: 120px;
 }
 
@@ -326,7 +325,7 @@ body,html {
 }
 .gy-container .newsBg .newsBox .learnMore a:hover {
 	background: #E4392A;
-	
+
 }
 .gy-container .newsBg .newsBox .newsDes li .botHid {
 	width: 92%;
@@ -418,7 +417,7 @@ body,html {
 
 .gy-container .contactBox .des .desL li {
 	width: 100%;
-	height: 35px;
+	/*height: 35px;*/
 }
 .gy-container .contactBox .des .desL .address {
 	background: url(../../image/gy-image/gy-icon2-1.png) no-repeat;
@@ -426,6 +425,7 @@ body,html {
 	margin-bottom: 20px;
 	line-height: 35px;
 	font-size: 14px;
+	box-sizing: border-box;
 }
 .gy-container .contactBox .des .desL .tel {
 	background: url(../../image/gy-image/gy-icon2-2.png) no-repeat;
@@ -433,6 +433,7 @@ body,html {
 	line-height: 35px;
 	font-size: 14px;
 	color: #999;
+	box-sizing: border-box;
 }
 .gy-container .contactBox .des .desL .tel2 {
 	padding-left: 60px;
@@ -440,6 +441,7 @@ body,html {
 	line-height: 35px;
 	font-size: 14px;
 	color: #999;
+	box-sizing: border-box;
 }
 
 .gy-container .contactBox .des .desL .email {
@@ -448,6 +450,7 @@ body,html {
 	line-height: 35px;
 	font-size: 14px;
 	color: #999;
+	box-sizing: border-box;
 }
 .gy-container .contactBox .des .desR {
 	width: 62%;
@@ -459,3 +462,147 @@ body,html {
 }
 
 /* contact end*/
+
+
+
+
+
+
+
+/* 1160px */
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+	/* serve start */
+	.gy-container .serveBox {
+		width: 100%;
+	}
+	.gy-container .serveBox .serveCon {
+		width: 100%;
+	}
+	.gy-container .serveBox .serveCon a {
+		display: block;
+		width: 20%;
+		padding: 0 40px;
+		float: left;
+		box-sizing: border-box;
+	}
+	.gy-container .serveBox .serveCon li {
+		width: 100%;
+	}
+
+	/* serve end */
+	/* case start */
+	.gy-container .caseBg .caseBox {
+		width: 100%;
+	}
+	/* case end*/
+	/* news start */
+	.gy-container .newsBg .newsBox .newsDes {
+		width: 100%;
+	}
+
+	.gy-container .newsBg .newsBox .learnMore {
+		width: 100%;
+	}
+	/* news end*/
+	/* contact start */
+	.gy-container .contactBox {
+		width: 100%;
+
+	}
+	.gy-container .contactBox .des {
+		width: 100%;
+	}
+	/* contact end*/
+}
+
+/* 768 px */
+@media screen and (max-width: 768px) {
+	/* serve start */
+	.gy-container .serveBox {
+		width: 100%;
+		padding-top: 50px;
+	}
+	.gy-container .serveBox .serveCon {
+		width: 100%;
+	}
+	.gy-container .serveBox .serveCon a {
+		display: block;
+		width: 50%;
+		padding: 0 40px;
+		float: left;
+		box-sizing: border-box;
+		margin-top: 40px;
+		overflow: hidden;
+	}
+	.gy-container .serveBox .serveCon li {
+		width: 100%;
+	}
+	/* serve end */
+	/* case start */
+	.gy-container .caseBg .caseBox {
+		width: 100%;
+		/*height: auto;*/
+	}
+	.gy-container .caseBg .caseBox .caseList li img {
+		height: auto;
+	}
+	/* case end */
+	/* news start */
+	.gy-container .newsBg {
+		background: #16182C;
+	}
+	.gy-container .newsBg .newsBox .newsDes {
+		width: 100%;
+	}
+	.gy-container .newsBg .newsBox .newsDes li {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.gy-container .newsBg .newsBox .learnMore {
+		width: 100%;
+		display: none;
+	}
+	/* news end */
+	/* contact start */
+	.gy-container .contactBox {
+		width: 100%;
+	}
+	.gy-container .contactBox .des {
+		width: 100%;
+	}
+	.gy-container .contactBox .des .desL {
+		width: 100%;
+	}
+	.gy-container .contactBox .des .desR {
+		width: 100%;
+	}
+	/* contact end*/
+}
+
+/* 480px */
+@media screen and (max-width: 480px) {
+	/* serve start */
+	.gy-container .serveBox .serveCon a {
+		width: 100%;
+	}
+	.gy-container .serveBox .serveCon li {
+		width: 100%;
+	}
+	/* serve end */
+	/* case start */
+	.gy-container .caseBg .caseBox .caseList li {
+		width: 100%;
+	}
+	.gy-container .caseBg .caseBox .caseList li a .hid {
+		width: 93%;
+		height: 100%;
+	}
+	/* case end */
+	/* news start */
+	.gy-container .newsBg .newsBox .newsDes li {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	/* news end */
+}
+	

@@ -155,3 +155,31 @@ footer .mapBot .copyright {
 	font-size: 12px;
 	text-align: center;
 }
+
+/* 1160px */
+@media screen and (max-width: 1160px) {
+	footer .mapBot .link .linkBox {
+		width: 100%;
+	}
+	footer .mapBot .siteMap .des {
+		width: 100%;
+	}
+	footer .mapBot .siteMap {
+		display: block;
+	}
+}
+/* 768px */
+@media screen and (max-width: 768px) {
+	footer .mapBot .siteMap {
+		display: none;
+	}
+	footer .mapBot .link {
+		height: auto;
+	}
+}
+/* 480px */
+@media screen and (max-width: 480px) {
+	footer .mapBot .link {
+		height: auto;
+	}
+}
