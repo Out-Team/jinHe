@@ -80,6 +80,9 @@ footer .mapBot .link .linkBox a {
 	color: #a8a8af;
 	padding-right: 15px;
 }
+footer .mapBot .link .linkBox a:hover {
+	color: #E4392A;
+}
 footer .mapBot .siteMap {
 	width: 100%;
 	background: url(../image/footer/ft-bg.png) no-repeat center top;

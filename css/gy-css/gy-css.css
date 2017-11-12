@@ -319,6 +319,14 @@ body,html {
 .gy-container .newsBg .newsBox .learnMore {
 	width: 1140px;
 	margin: 0px auto;
+
+}
+.gy-container .newsBg .newsBox .learnMore a{
+	background: transparent;
+}
+.gy-container .newsBg .newsBox .learnMore a:hover {
+	background: #E4392A;
+	
 }
 .gy-container .newsBg .newsBox .newsDes li .botHid {
 	width: 92%;
