@@ -1,0 +1,167 @@
+/*pc页面部分*/
+.np-head{
+	width: 100%;
+	height: 90px;
+	transition: all .3s;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, .3);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background: #FFFFFF;
+}
+.np-c{
+	width: 100%;
+	height: 90px;
+}
+.np-head .np-wp{
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.np-head .np-wp a{
+	color: #999999;
+}
+.np-head .np-wp a:hover{
+	color: #e4392a;
+}
+.np-head .np-wp .np-logo{
+	float: left;
+	margin-right: 65px;
+	height: 90px;
+	overflow: hidden;
+}
+.np-head .np-wp .np-logo a{
+	display: block;
+	height: 100%;
+	line-height: 90px;
+}
+.np-head .np-wp .np-logo a img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.np-head .np-wp .np-nav ul li{
+	float: left;
+	line-height: 90px;
+	width: 100px;
+	margin-right: 10px;
+}
+.np-head .np-wp .np-nav ul li a{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	border-bottom: 3px solid #fff;
+	height: 90px;
+}
+.np-head .np-wp .np-nav ul li a:hover{
+	border-bottom: 3px solid #e4392a;
+}
+.np-head .np-wp .np-tel{
+	background: url(../image/np-image/np-tel.png) left center no-repeat;
+	line-height: 90px;
+	float: right;
+	padding-left: 37px;
+	color: #e4392a;
+	font-size: 18px;
+}
+/*pc页面部分*/
+/*手机页面*/
+.npm-hd{
+	display: none;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 999999;
+}
+.npm-hd img{
+	height: 40px;
+	padding: 10px 0 0 10px;
+}
+.np-trigger{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 50px;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	line-height: 45px;
+	cursor: pointer;
+	background: url(../image/np-image/np-tubiao.png) center center no-repeat;
+	-webkit-background-size: 50px;
+	background-size: 25px;
+	height: 50px;
+}
+.npm-nav{
+	z-index: 60;
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	left: 0;
+	background: url(../image/np-image/np-blak.png) repeat;
+	text-align: center;
+	display: none;
+}
+.npm-nav li{
+	border-bottom: 1px solid #565656;
+}
+.npm-nav li a{
+	display: block;
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	text-align:center;
+	color: #fff;
+	font-size: 14px;
+}
+.npm-nav a:hover{
+	color: #e4392a;
+}
+/*手机页面*/
+/*响应部分*/
+@media screen and (max-width: 1700px) {
+	.np-head .np-wp{
+		width: 100%;
+		max-width: 1140px;
+	
+	}
+}
+ @media screen and (max-width: 1168px) {
+	.np-head {
+	    display: none !important;
+	}
+	.npm-hd{
+		display: block;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
