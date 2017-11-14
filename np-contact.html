@@ -127,7 +127,46 @@
 			</div>
 			<!-- contact end -->
 		</div>
-
+		<!--侧边-->
+		<div class="np-side1">
+			<ul>
+				<li>
+					<a href="#">
+						<div class="sidebox">
+							<img src="image/np-image/koukou.png" alt="">
+							在线咨询
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="sidebox">
+							<img src="image/np-image/dianhua.png" alt="">
+							15921847323
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="np-side2">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="image/np-image/r_icon1.png" alt="">
+					</a>
+					<div class="weixin">
+						<em></em>
+						<img src="image/np-image/ewm.jpg" alt="">
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/np-image/r_icon2.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--侧边-->
 		<!-- footer start  -->
 		<footer>
 			<div class="map">
@@ -259,5 +298,26 @@
 
 		})
 	</script>
+	<!--侧边效果-->
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$(".np-side1 ul li").hover(function(){
+			$(this).find(".sidebox").stop().animate({"width":"175px"},200).css({"background":"#e4392a","padding-left":"17px"})
+		},function(){
+			 $(this).find(".sidebox").stop().animate({"width":"50px"},200).css({"background":"#002","padding-left":"0"})
+		})
+		$(".np-side2  ul li").hover(function(){
+			$(this).find("a").css({"background":"#002"})
+		},function(){
+			$(this).find("a").css({"background":"#e4392a"})
+		})
+		$(".np-side2  li #top").click(function(){
+			$("html,body").animate({"scrollTop":"0"},600)
+		})
+		$('.np-side2  li').hover(function(){
+		    $(this).find('.weixin').stop().slideToggle();
+		})
+	})
 
+	</script>
 </html>

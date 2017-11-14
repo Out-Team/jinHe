@@ -1,0 +1,203 @@
+.ban-in{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ban-in .ban-bg{
+	width: 100%;
+	height: 54px;
+	background: url('../../image/lh-img/ban_bg.png') no-repeat center top /cover;
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	z-index: 10;
+
+}
+.lh-container{
+	width: 1140px;
+	margin: auto;
+}
+.tit-i{
+	text-align: center;
+    padding: 50px 0 8px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.tit-i h3 {
+    font-size: 30px;
+    color: #002;
+    margin-bottom: 10px;
+}
+.tit-i h5 {
+    font-size: 20px;
+    color: #cacace;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+.tit-i h5 span {
+    color: #e4392a;
+}
+.sub-nav {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.sub-nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+    font-size: 16px;
+}
+.sub-nav ul li a {
+    padding-left: 14px;
+    display: inline-block;
+    color: #999;
+}
+.lh-case{
+	width: 100%;
+	overflow: hidden;
+}
+.lh-case li{
+	float: left;
+	width: 33.3333%;
+	height: 168px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+
+}
+.lh-case li .pic{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.lh-case li .pic img{
+	width: 100%;
+	height: 100%;
+}
+.lh-case li .pic .txt{
+	position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: url('../../image/lh-img/alpha_blue_60.png') repeat;
+    text-align: center;
+    color: #fff;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: all .3s;
+    opacity: 0;
+    z-index: 10;
+}
+.lh-case li:hover .txt{
+	opacity: 1;
+}
+.lh-case li .pic .txt a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: white;
+}
+.lh-case li .pic .txt a .pad{
+	display: inline-block;
+    vertical-align: middle;
+}
+.lh-case li .pic .txt a .pad h5{
+	font-size: 16px;
+}
+.lh-case li .pic .txt a .pad em {
+    width: 45px;
+    height: 0px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    margin: 20px 0 5px 0;
+}
+.lh-case li .txt h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.lh-case li .txt b {
+    width: 0;
+    height: 100%;
+}
+.lh-case li .txt .more {
+    width: 122px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    background-color: #e4392a;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.pages{
+	clear: both;
+    height: 30px;
+    margin: 20px;
+    overflow: hidden;
+    margin-left: 0px;
+    text-align: center;
+}
+.pages ul li{
+	display: inline-block;
+    border: 1px solid #ccc;
+    padding: 2px 9px;
+    margin: 0 3px;
+    line-height: 20px;
+    background: #fff;
+    color: #999;
+}
+.pages ul li.thisclass{
+	border: 1px solid #E4392A;
+    background: #E4392A;
+    color: #fff;
+}
+.pages ul li a {
+    display: block;
+    color: #999;
+    text-decoration: none;
+}
+@media screen and (max-width:1160px) and (min-width: 902px){
+	.lh-container{
+		width: 100%;
+	}
+	.lh-case li{
+		width: 33.3333%;
+	}
+}
+@media screen and (max-width:902px) and (min-width: 638px){
+	.lh-container{
+		width: 100%;
+	}
+	.lh-case li{
+		width: 50%;
+	}
+}
+@media screen and (max-width:638px){
+	.lh-container{
+		width: 100%;
+	}
+	.lh-case li{
+		width: 100%;
+	}
+	
+	.ban-in{
+		display: none;
+	}
+	.pages ul li {
+	    display: inline-block;
+	    border: 1px solid #ccc;
+	    padding: 2px 2px;
+	    margin: 0 3px;
+	    line-height: 20px;
+	    background: #fff;
+	    color: #999;
+	}
+}

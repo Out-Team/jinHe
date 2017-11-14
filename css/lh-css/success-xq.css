@@ -1,0 +1,103 @@
+body {
+    font-family: "微软雅黑", "Microsoft Yahei";
+    font: 12px/1.5 宋体, Arial, sans-serif;
+}
+.lh-navs{
+	width: 100%;	
+}
+.lh-top{
+	line-height: 76px;
+    font-family: "宋体";
+    color: #666;
+    background-color: #f8f9fa;
+}
+.lh-cur{
+	width: 100%;
+	max-width: 1140px;
+	margin: auto;	
+}
+.lh-cur a{
+	color: #666;
+}
+.lh-article{
+	line-height: 30px;
+    color: #666;
+    margin-bottom: 13%;
+}
+.lh-article .lh-cur .logo{
+	text-align: center;
+    padding-top: 38px;
+}
+.lh-article .lh-cur h1{
+	line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    color:#000000;
+}
+.lh-article .lh-cur .lh-content p{
+	padding: 0px;
+    margin: 0px;
+    color: rgb(68, 68, 68);
+    word-break: break-all;
+    word-wrap: break-word;
+    font-family: 'Microsoft YaHei', 宋体, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+.lh-article .lh-cur .lh-content p span{
+	padding: 0px;
+    margin: 0px;
+    font-family: 微软雅黑, 'microsoft yahei';
+}
+.lh-article .lh-cur .lh-content p img{
+	max-width: 100%;
+}
+.lh-bottom{
+	font-family: "microsoft yahei";
+    text-align: center;
+    background: #f1f1f1;
+    padding: 10px 0;
+    color: #666;
+    margin: 20px auto;
+    width: 90%;
+}
+.lh-bottom .lh-button{
+	border: 0;
+    outline: 0;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0;
+}
+.lh-bottom .lh-button span{
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 58px;
+    color: #fff;
+    font: 400 25px/50px 'microsoft yahei';
+    background: #FEC22C;
+}
+.lh-back{
+	text-align: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.lh-back a{
+	display: inline-block;
+    width: 178px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border: 1px solid #63637f;
+    color: #002;
+    font-size: 18px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 1068px) {
+	.lh-cur{
+		width: 100%;
+		padding: 0px 10px;
+	}
+}

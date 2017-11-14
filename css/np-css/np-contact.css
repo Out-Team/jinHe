@@ -14,7 +14,7 @@
     width: 100%;
     position: absolute;
     left: 0;
-    bottom: 320px;
+    top: 340px;
     z-index: 60;
 }
 footer .mapBot .np-siteMap{
@@ -49,5 +49,90 @@ footer .mapBot .np-siteMap{
 	}
 }
 /*图片背景部分*/
-
+/*侧边栏*/
+.np-side1{
+	position: fixed;
+    width: 50px;
+    height: 275px;
+    right: 0;
+    top: 250px;
+    z-index: 100;
+}
+.np-side1 ul li{
+	width: 50px;
+    height: 50px;
+    float: left;
+    position: relative;
+    margin-bottom: 2px;
+}
+.np-side1 ul li .sidebox{
+	position: absolute;
+	width: 50px;
+	height: 50px;	
+	border-radius: 5px 0 0 5px;
+	background: rgb(0, 0, 34);
+    top: 0;
+    right: 0;
+    transition: all 0.3s;
+    color: #fff;
+    font: 16px/50px "微软雅黑";
+    overflow: hidden;
+}
+.np-side1 ul li img{
+	float: right;
+	transform-origin:right top;
+}
+.np-side1 ul li:hover img{
+	animation: scale .2s; 
+}
+@keyframes scale{
+	50%{
+		transform:scale(.5,.5);
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+.np-side2{
+	position: fixed;
+    width: 40px;
+    right: 10px;
+    z-index: 100;
+    top: 500px;
+    height: 80px;
+}
+.np-side2 ul li{
+	width: 40px;
+    height: 40px;
+}
+.np-side2 ul li a{
+	display: block;
+    background-color: #e4392a;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.np-side2 ul li a img{
+	vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
+.np-side2 ul li .weixin{
+	display: none;
+    height: 140px;
+    position: absolute;
+    left: -154px;
+    bottom: 0;
+}
+@media screen and (max-width: 900px){
+	.np-side2{
+		display: none;
+	}
+	.np-side1{
+		display: none;
+	}
+	
+}
+/*侧边栏完*/
 /*注意:地图和联系方式引用自gy-index.css*/
